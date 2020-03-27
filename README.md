@@ -1,7 +1,8 @@
 PHP - ARRAY
 ---------------------------------------------
-ARRAY SORT
+Array sort
 ---------------------------------------------
+<?php
 $numbers = [1, 4, 8, 12, 16, 20, 30];
 
 usort($numbers, function($first, $second){
@@ -12,3 +13,4 @@ usort($numbers, function($first, $second){
 });
 
 var_dump($numbers);
+?>
